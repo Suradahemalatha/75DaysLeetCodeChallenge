@@ -98,4 +98,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0020-valid-parentheses/) | Easy |
+| [0232-implement-queue-using-stacks](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0232-implement-queue-using-stacks/) | Easy |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0232-implement-queue-using-stacks/) | Easy |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0232-implement-queue-using-stacks/) | Easy |
 <!---LeetCode Topics End-->
