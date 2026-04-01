@@ -1,32 +1,29 @@
-import java.util.Stack;
+import java.util.ArrayDeque;
 public class Solution {
     public int evalRPN(String[] tokens) {
-        Stack<Integer> stack = new Stack<>();
+        ArrayDeque<Integer> stack = new ArrayDeque<>();
         for (String token : tokens) {
-            if (!isOperator(token)) {
-                stack.push(Integer.parseInt(token));
-            } else {
-                int a = stack.pop();
-                int b = stack.pop();
-                switch (token) {
-                    case "+":
-                        stack.push(b + a);
-                        break;
-                    case "-":
-                        stack.push(b - a);
-                        break;
-                    case "*":
-                        stack.push(b * a);
-                        break;
-                    case "/":
-                        stack.push(b / a);
-                        break;
-                }
+            switch (token) {
+                case "+":
+                    stack.push(stack.pop() + stack.pop());
+                    break;
+                case "-":
+                    int a = stack.pop();
+                    int b = stack.pop();
+                    stack.push(b - a);
+                    break;
+                case "*":
+                    stack.push(stack.pop() * stack.pop());
+                    break;
+                case "/":
+                    int x = stack.pop();
+                    int y = stack.pop();
+                    stack.push(y / x);
+                    break;
+                default:
+                    stack.push(Integer.parseInt(token));
             }
         }
         return stack.peek();
-    }
-    private boolean isOperator(String s) {
-        return s.equals("+") || s.equals("-") || s.equals("*") || s.equals("/");
     }
 }
