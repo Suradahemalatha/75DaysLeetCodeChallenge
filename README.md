@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0217-contains-duplicate](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/master/0238-product-of-array-except-self) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0035-search-insert-position](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0035-search-insert-position/) | Easy |
 | [0074-search-a-2d-matrix](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0704-binary-search](https://github.com/Suradahemalatha/75DaysLeetCodeChallenge/tree/main/0704-binary-search/) | Easy |
 ## Greedy
